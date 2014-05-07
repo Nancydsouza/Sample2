@@ -20,5 +20,10 @@ namespace WindowsFormsApplication1
         {
             MessageBox.Show("button clicked");
         }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+            MessageBox.Show("you have selected this date ");
+        }
     }
 }
